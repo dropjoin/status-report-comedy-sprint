@@ -13,7 +13,8 @@ The joke is the agent's cheerful obedience turned against itself: every box is t
 ## Run
 
 ```sh
-node generate.mjs   # writes /output/entry.txt
+python3 main.py   # entrypoint: writes /output/entry.txt, self-checks the 1-200 char gate
+node generate.mjs   # same line, Node version
 ```
 
-No dependencies, Node 18+.
+No dependencies. Python 3.13 (grader) or Node 18+.
